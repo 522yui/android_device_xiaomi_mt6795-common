@@ -15,7 +15,7 @@ TARGET_NO_BOOTLOADER := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_NO_FACTORYIMAGE := true
 
-TARGET_LDPRELOAD += libxlog.so
+TARGET_LDPRELOAD += libxlog.so:libmtkabi.so
 
 # CPU
 TARGET_ARCH := arm64

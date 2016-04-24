@@ -123,11 +123,11 @@ TARGET_SCREEN_WIDTH := 1080
 BOARD_EGL_WORKAROUND_BUG_10194508 := true
 
 # SELinux
-BOARD_SEPOLICY_DIRS := \
+BOARD_SEPOLICY_DIRS += \
        device/xiaomi/mt6795-common/sepolicy
 
 # NOTE: remove this once Marshmallow kernel is available
-POLICYVERS := 26
+POLICYVERS := 29
 
 # Hack for building without kernel sources
 $(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)

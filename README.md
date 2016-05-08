@@ -12,3 +12,5 @@
   - The CyanogenMod Team
   - xen0n
   - xiaomi-dev (ivan19871002)
+  - visi0nary
+

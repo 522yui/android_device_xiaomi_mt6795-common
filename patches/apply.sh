@@ -34,8 +34,5 @@ cd ../../..
 cd packages/apps/Dialer
 git apply -v ../../../device/xiaomi/mt6795-common/patches/packages_apps_Dialer/0001-enable-call-recording.patch
 cd ../../..
-cd packages/apps/Settings
-git apply -v ../../../device/xiaomi/mt6795-common/patches/packages_apps_Settings/0001-enable-fingerprint-sensor.patch
-cd ../../..
 echo Patches Applied Successfully!
 

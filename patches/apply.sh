@@ -10,6 +10,7 @@ git apply -v ../../device/xiaomi/mt6795-commons/patches/framework_base/0002-loca
 git apply -v ../../device/xiaomi/mt6795-common/patches/framework_base/0003-location-style-fix.patch
 git apply -v ../../device/xiaomi/mt6795-common/patches/framework_base/0006-add-com.mediatek-for-build.patch
 git apply -v ../../device/xiaomi/mt6795-common/patches/framework_base/0007-Update-for-mtk.patch
+git apply -v ../../device/xiaomi/mt6795-common/patches/framework_base/0008-add-xlog.patch 
 cd ../..
 cd frameworks/opt/telephony
 git apply -v ../../../device/xiaomi/mt6795-common/patches/framework_opt_telephony/0001-Update-for-mtk.patch

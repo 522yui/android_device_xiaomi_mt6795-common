@@ -27,13 +27,11 @@ git apply -v ../../device/xiaomi/mt6795-common/patches/system_netd/0001-hotpost-
 cd ../..
 cd hardware/libhardware
 git apply -v ../../device/xiaomi/mt6795-common/patches/hardware_libhardware/0001-fix-gps-light-audio.patch
-git apply -v ../../device/elephone/p8000/patches/hardware_libhardware/0001_engineering_mode_audio_settings_hardware_libhardware.patch
+git apply -v ../../device/xiaomi/mt6795-common/hardware_libhardware/0001_engineering_mode_audio_settings_hardware_libhardware.patch
 cd ../..
 cd hardware/libhardware_legacy
 git apply -v ../../device/xiaomi/mt6795-common/patches/hardware_libhardware_legacy/0001-patch-for-mtk.patch
 cd ../..
-cd packages/apps/CMUpdater
-git apply -v ../../../device/xiaomi/mt6795-common/patches/packages_apps_CMUpdater/0001-enable-ota-updates.patch
 cd ../../..
 cd packages/apps/Dialer
 git apply -v ../../../device/xiaomi/mt6795-common/patches/packages_apps_Dialer/0001-enable-call-recording.patch

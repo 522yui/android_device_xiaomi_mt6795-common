@@ -12,6 +12,7 @@ git apply -v ../../device/xiaomi/mt6795-common/patches/framework_base/0003-locat
 git apply -v ../../device/xiaomi/mt6795-common/patches/framework_base/0006-add-com.mediatek-for-build.patch
 git apply -v ../../device/xiaomi/mt6795-common/patches/framework_base/0007-Update-for-mtk.patch
 git apply -v ../../device/xiaomi/mt6795-common/patches/framework_base/0004_minimal_xlog_frameworks_base.patch 
+git apply -v ../../device/xiaomi/mt6795-common/patches/framework_base/0001_engineering_mode_audio_settings_frameworks_base.patch
 cd ../..
 cd frameworks/opt/telephony
 git apply -v ../../../device/xiaomi/mt6795-common/patches/framework_opt_telephony/0001-Update-for-mtk.patch

@@ -15,7 +15,7 @@ git apply -v ../../device/xiaomi/mt6795-common/patches/frameworks_base/0004_mini
 git apply -v ../../device/xiaomi/mt6795-common/patches/frameworks_base/0001_engineering_mode_audio_settings_frameworks_base.patch
 cd ../..
 cd frameworks/opt/telephony
-git apply -v ../../../device/xiaomi/mt6795-common/patches/framework_opt_telephony/0001-Update-for-mtk.patch
+git apply -v ../../../device/xiaomi/mt6795-common/patches/frameworks_opt_telephony/0001-Update-for-mtk.patch
 cd ../../..
 cd packages/services/Telephony
 git apply -v ../../../device/xiaomi/mt6795-common/patches/packages_services_Telpheony/0001-Update-for-mtk.patch

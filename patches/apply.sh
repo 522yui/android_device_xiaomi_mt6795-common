@@ -13,6 +13,7 @@ git apply -v ../../device/xiaomi/mt6795-common/patches/frameworks_base/0006-add-
 git apply -v ../../device/xiaomi/mt6795-common/patches/frameworks_base/0007-Update-for-mtk.patch
 git apply -v ../../device/xiaomi/mt6795-common/patches/frameworks_base/0004_minimal_xlog_frameworks_base.patch 
 git apply -v ../../device/xiaomi/mt6795-common/patches/frameworks_base/0001_engineering_mode_audio_settings_frameworks_base.patch
+git apply -v ../../device/xiaomi/mt6795-common/patches/frameworks_base/0005-enable-virtual-keys.patch
 cd ../..
 cd frameworks/opt/telephony
 git apply -v ../../../device/xiaomi/mt6795-common/patches/frameworks_opt_telephony/0001-Update-for-mtk.patch
